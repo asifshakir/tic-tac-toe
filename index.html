@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div>
+        <div id="message"></div>
+        <table><tr><td valign="top">
+            <div id="board"></div>
+        </td><td valign="top">
+            <div id="scores"></div>
+        </td></tr></table>
+    </div>
+    <style>
+        #board table { border: solid 1px #000; }
+        #board table td { padding:0; border: solid 1px #000; }
+        #board table td button { width: 2em; height: 2em; border: none; }
+
+        #scores table { border: solid 1px #000; }
+        #scores table td, #scores table th { 
+            width: 2em;
+            text-align: center;
+            padding:0; border: solid 1px #000; }
+    </style>
+    <script src="app.js"></script>
+</body>
+</html>
